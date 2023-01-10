@@ -1,0 +1,121 @@
+.MainContainer {
+  width: auto;
+  padding-top: 50px;
+  padding-left: 260px;
+  padding-right: 260px;
+}
+.heading {
+  font-size: 40px;
+  font-weight: 400;
+  color: #831430;
+}
+.paragraph {
+  width: 71%;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 20px 0 35px 0;
+}
+.textArea {
+  border-radius: 10px;
+  border: 2px solid rgb(187, 187, 187);
+  padding: 15px;
+  caret-color: #831430;
+  font-size: 20px;
+  width: 76%;
+  min-height: 270px;
+}
+/* .textArea:focus {
+  outline: rgb(187, 187, 187);
+} */
+@media screen and (max-width: 1440px) {
+  .MainContainer {
+    padding-left: 135px;
+    padding-right: 135px;
+  }
+  .textArea {
+    font-size: 20px;
+    width: 89%;
+
+    min-height: 200px;
+  }
+  .paragraph {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .MainContainer {
+    padding-left: 132px;
+    padding-right: 132px;
+  }
+  .textArea {
+    font-size: 20px;
+    width: 100%;
+
+    min-height: 200px;
+  }
+  .heading {
+    font-size: 35px;
+    font-weight: 400;
+  }
+  .paragraph {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0 30px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .MainContainer {
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+  .textArea {
+    font-size: 20px;
+    width: 95%;
+
+    min-height: 145px;
+  }
+  .heading {
+    font-size: 32px;
+    font-weight: 400;
+  }
+  .paragraph {
+    font-size: 18px;
+
+    margin: 20px 0 30px 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .MainContainer {
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+  .textArea {
+    font-size: 18px;
+    width: 91.5%;
+    min-height: 125px;
+  }
+  .heading {
+    font-size: 29px;
+  }
+  .paragraph {
+    margin: 10px 0 15px 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  .MainContainer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .textArea {
+    font-size: 16px;
+    width: 89.5%;
+    min-height: 80px;
+  }
+  .heading {
+    font-size: 28px;
+  }
+  .paragraph {
+    font-size: 16px;
+  }
+}

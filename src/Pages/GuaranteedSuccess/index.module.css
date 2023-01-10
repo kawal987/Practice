@@ -1,0 +1,76 @@
+.container {
+  background-color: #353535;
+  width: 100%;
+}
+.leftPart {
+  display: flex;
+  padding: 80px 90px 80px 90px;
+}
+.rightPart {
+  width: 100%;
+  background-color: #831430;
+  padding: 80px 140px 80px 140px;
+}
+.topContainer {
+  display: flex;
+  width: 100%;
+}
+.name {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-left: 15px;
+}
+.Member {
+  background-color: #ffffff;
+  color: #353535;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+.userImage {
+  border-radius: 100%;
+  width: 50%;
+  height: 100%;
+}
+.heading {
+  font-size: 65px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.success {
+  color: #000;
+}
+.description {
+  font-size: 35px;
+  color: #ffffff;
+  word-spacing: 5px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  margin-top: 170px;
+}
+.bottomContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+}
+.bottomHeading {
+  font-size: 75px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.JoinNowButton {
+  font-size: 35px;
+  padding: 9px 80px 9px 80px;
+  border-radius: 10px;
+  border: none;
+}

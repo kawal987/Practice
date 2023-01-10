@@ -1,0 +1,6 @@
+{
+    path: '/staff',
+        name: 'staff',
+            icon: 'ContactsOutlined',
+                component: './Staff/InviteStaff',
+            },

@@ -1,0 +1,205 @@
+.mainContainer {
+  background-image: url("./BackgroundImage.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  display: flex;
+  object-fit: contain;
+}
+.leftContainer {
+  width: 62.5%;
+  /* display: flex; */
+  text-align: center;
+
+  padding: 200px 0px 200px 0px;
+  /* background-color: #831430; */
+}
+.pepperLogo {
+  width: 32%;
+}
+.dummyRight {
+  width: 28%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px solid #831430;
+}
+.adviceToTakeIt {
+  font-size: 45px;
+  margin: 70px 0px 70px 0px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.pepperSeeds {
+  width: 240px;
+}
+.rightContainer {
+  width: 25%;
+  padding: 200px 0px 200px 80px;
+  /* background-color: red; */
+  display: flex;
+
+  flex-direction: column;
+}
+.ozempicLogo {
+  width: 60%;
+}
+.dummyLeft {
+  width: 23%;
+
+  border-bottom: 4px solid #ffffff;
+  margin: 40px 0px 40px 90px;
+}
+.pepperConsultant {
+  color: #ffffff;
+  font-size: 35px;
+  /* padding-left: 30px; */
+  text-align: center;
+  justify-content: flex-start;
+  display: flex;
+}
+.dummyRightContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 1440px) {
+  .leftContainer {
+    padding: 120px 0px 120px 0px;
+  }
+  .rightContainer {
+    padding: 150px 0px 150px 50px;
+  }
+  .pepperConsultant {
+    font-size: 30px;
+  }
+  .dummyLeft {
+    margin: 40px 0px 40px 45px;
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .leftContainer {
+    padding: 90px 0px 90px 0px;
+  }
+  .rightContainer {
+    padding: 110px 0px 110px 40px;
+  }
+  .pepperConsultant {
+    font-size: 20px;
+  }
+
+  .dummyLeft {
+    width: 90px;
+    margin: 30px 0px 30px 30px;
+  }
+  .pepperLogo {
+    width: 28%;
+  }
+  .adviceToTakeIt {
+    font-size: 35px;
+    margin: 45px 0px 45px 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .leftContainer {
+    padding: 55px 0px 55px 0px;
+  }
+  .rightContainer {
+    padding: 80px 0px 90px 20px;
+  }
+  .pepperConsultant {
+    font-size: 15px;
+  }
+
+  .dummyLeft {
+    width: 80px;
+    margin: 20px 0px 20px 10px;
+  }
+  .pepperLogo {
+    width: 28%;
+  }
+  .adviceToTakeIt {
+    font-size: 25px;
+    margin: 25px 0px 25px 0px;
+  }
+  .pepperSeeds {
+    width: 200px;
+  }
+  .mainContainer {
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .leftContainer {
+    padding: 30px 0px 30px 0px;
+    width: 62%;
+  }
+  .rightContainer {
+    padding: 40px 0px 30px 40px;
+    width: 38%;
+  }
+  .pepperConsultant {
+    font-size: 12px;
+    text-align: start;
+  }
+
+  .dummyLeft {
+    width: 50px;
+    margin: 10px 0px 10px 10px;
+    border-bottom: 2px solid #ffffff;
+  }
+  .pepperLogo {
+    width: 28%;
+  }
+  .adviceToTakeIt {
+    font-size: 15px;
+    margin: 15px 0px 15px 0px;
+  }
+  .pepperSeeds {
+    width: 100px;
+  }
+  .ozempicLogo {
+    width: 60%;
+  }
+  .dummyRight {
+    border-bottom: 2px solid #831430;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .leftContainer {
+    padding: 30px 0px 30px 0px;
+    width: 88%;
+    /* background-color: red; */
+  }
+  .rightContainer {
+    padding: 40px 0px 30px 20px;
+    width: 38%;
+  }
+  .pepperConsultant {
+    font-size: 12px;
+    text-align: start;
+  }
+
+  .dummyLeft {
+    width: 50px;
+    margin: 8px 0px 8px 22px;
+    border-bottom: 2px solid #ffffff;
+  }
+
+  .adviceToTakeIt {
+    font-size: 15px;
+    margin: 15px 0px 15px 0px;
+  }
+
+  .ozempicLogo {
+    width: 95%;
+  }
+  .dummyRight {
+    border-bottom: 2px solid #831430;
+  }
+}

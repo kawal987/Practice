@@ -1,0 +1,33 @@
+.mainContainer {
+  background-image: url("./bgWithGirl1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  object-fit: contain;
+  /* padding: 130px 0px 130px 0px; */
+  height: 90vh;
+}
+.subContainer {
+  padding: 170px 0px 170px 240px;
+}
+.headingPart {
+  font-size: 45px;
+  color: #831430;
+  font-weight: 600;
+}
+.paragraphPart {
+  font-size: 45px;
+  margin-bottom: 170px;
+  line-height: 70px;
+}
+.IntakeForm {
+  background-color: #831430;
+}
+@media only screen and (max-width: 1440px) {
+  .subContainer {
+    padding: 170px 0px 170px 50px;
+  }
+  .mainContainer {
+    background-size: contain;
+  }
+}

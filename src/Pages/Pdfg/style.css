@@ -1,0 +1,11 @@
+.option {
+  /* background-color: red; */
+  padding: 20px 30px 30px 30px;
+}
+.select::selection {
+  background-color: aliceblue;
+}
+.select {
+  color: blue;
+  background-color: aliceblue;
+}
