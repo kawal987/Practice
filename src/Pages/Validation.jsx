@@ -1,6 +1,7 @@
 import React from "react";
 
 const Validation = () => {
+  console.log("a");
   const validateEmail = () => {
     var x = document.myForm.email.value;
 
